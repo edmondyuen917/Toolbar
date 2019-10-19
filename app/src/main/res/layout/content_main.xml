@@ -16,7 +16,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:background="#2196F3"
-        android:text="Go to activity 2"
+        android:text="@string/go_to_activity_2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,7 +28,16 @@
         android:layout_marginRight="20dp"
         android:checked="true"
         android:layout_marginTop="20dp"
-        android:text="Appbar visible" />
+        android:text="@string/appbar_visible" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="@string/button" />
 
 
 </LinearLayout>
