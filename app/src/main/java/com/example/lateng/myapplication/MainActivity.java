@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         }
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello" , Toast.LENGTH_SHORT).show();
     }
 
     public void openActivity2() {
