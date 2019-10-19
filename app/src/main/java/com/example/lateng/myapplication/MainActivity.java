@@ -64,8 +64,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (v.getId()) {
             case R.id.button1:
-
-
                 message = "Button 1 is clicked.";
                 openActivity2();
                 break;
